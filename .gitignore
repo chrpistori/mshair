@@ -1034,4 +1034,4 @@ healthchecksdb
 MigrationBackup/
 
 # End of https://www.gitignore.io/api/vim,node,xcode,python,android,pycharm,intellij,netbeans,jetbrains,dotnetcore,visualstudio,androidstudio,visualstudiocode
-/.idea/
+.idea/
