@@ -1,0 +1,4 @@
+#jpa config
+spring:
+  jpa: database-platform=org.hibernate.dialect.PostgreSQLDialect
+
