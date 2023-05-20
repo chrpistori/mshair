@@ -1,1 +1,1 @@
-rootProject.name = "salaomshair"
+rootProject.name = "ms-hair"
