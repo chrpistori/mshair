@@ -1,0 +1,16 @@
+version: "3.6"
+
+services:
+  db:
+    image: postgres:11.4
+    container_name: database
+    platform: linux/x86_64
+    environment:
+      - POSTGRES_DB=mshairdb
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_USER=admin
+    ports:
+      - "5432:5432"
+#    volumes:
+#      - ./db/roles.sql:/docker-entrypoint-initdb.d/roles.sql
+    restart: always
