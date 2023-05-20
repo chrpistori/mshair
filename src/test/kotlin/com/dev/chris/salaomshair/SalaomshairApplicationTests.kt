@@ -1,10 +1,10 @@
-package com.dev.chris.mshair
+package com.dev.chris.salaomshair
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class mshairApplicationTests {
+class SalaomshairApplicationTests {
 
 	@Test
 	fun contextLoads() {

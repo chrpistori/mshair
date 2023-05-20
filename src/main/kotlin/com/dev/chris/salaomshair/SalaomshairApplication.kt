@@ -1,11 +1,11 @@
-package com.dev.chris.mshair
+package com.dev.chris.salaomshair
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class mshairApplication
+class SalaomshairApplication
 
 fun main(args: Array<String>) {
-	runApplication<mshairApplication>(*args)
+	runApplication<SalaomshairApplication>(*args)
 }
